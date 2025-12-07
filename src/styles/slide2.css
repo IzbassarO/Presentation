@@ -7,7 +7,7 @@
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
   gap: 40px;
 
-  padding: 80px 90px;
+  padding: 60px 90px;
   align-items: center;
 }
 
