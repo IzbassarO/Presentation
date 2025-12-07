@@ -61,8 +61,8 @@ const Slide7: React.FC = () => {
               Связанная дилемма
             </h2>
             <p
-            className="slide7-description"
-            style={{ fontFamily: "PoppinsRegular" }}
+              className="slide7-description"
+              style={{ fontFamily: "PoppinsRegular" }}
             >
               Этика ИИ затрагивает и создание систем, и их применение. Встают
               вопросы ответственности за решения алгоритмов, недопустимости

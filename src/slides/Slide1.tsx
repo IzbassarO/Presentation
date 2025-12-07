@@ -12,31 +12,22 @@ const Slide1: React.FC = () => {
 
       {/* ЛЕВАЯ ТЕКСТОВАЯ КОЛОНКА */}
       <div className="hero-left">
-        <div
-          className="chip"
-          style={{ fontFamily: "ModernismBold" }}
-        >
+        <div className="chip" style={{ fontFamily: "ModernismBold" }}>
           Artificial Intelligence
         </div>
 
         <h1
           className="hero-title"
-          style={{ fontFamily: "PoppinsBoldPoppinsExtraBold" }}
+          style={{ fontFamily: "PoppinsSemiBold" }}
         >
           Философия искусственного интеллекта как часть философии науки
         </h1>
 
         <div className="status-row">
-          <div
-            className="danger"
-            style={{ fontFamily: "ModernismBold" }}
-          >
+          <div className="danger" style={{ fontFamily: "ModernismBold" }}>
             Science
           </div>
-          <div
-            className="tag"
-            style={{ fontFamily: "ModernismBold" }}
-          >
+          <div className="tag" style={{ fontFamily: "ModernismBold" }}>
             DIGITALIZATION
           </div>
         </div>
@@ -56,28 +47,19 @@ const Slide1: React.FC = () => {
 
       {/* ПРАВЫЕ КАРТИНКИ */}
       <div className="hero-right">
-        <div className="image-card large">
-          <img
-            src={small}
-            className="author-avatar"
-            alt="small"
-          />
-        </div>
+        <div className="hero-image-stack">
+          <div className="image-card large">
+            <img src={big} alt="Big digital city" />
+          </div>
 
-        <div className="image-card small">
-          <img
-            src={big}
-            className="author-avatar"
-            alt="small"
-          />
+          <div className="image-card small">
+            <img src={small} alt="Hands on keyboard" />
+          </div>
         </div>
       </div>
 
       {/* ИКОНКИ СВЕРХУ */}
-      <div
-        className="metrics"
-        style={{ fontFamily: "PoppinsSemiBold" }}
-      >
+      <div className="metrics" style={{ fontFamily: "PoppinsSemiBold" }}>
         <Metric icon="🧠" label="COGNITION" />
         <Metric icon="⚖️" label="RESPONSIBILITY" />
         <Metric icon="🤖" label="AUTONOMY" />
