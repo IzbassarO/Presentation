@@ -1,0 +1,61 @@
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    sans-serif;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.slides {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.dots {
+  position: fixed;
+  right: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+
+  background: rgb(2, 6, 23);
+
+  border: none;
+  cursor: pointer;
+
+  transition: none;
+}
+
+.dot--active {
+  background: rgba(15, 118, 110);
+  border: 1px solid rgba(0, 0, 0, 0.9);
+}

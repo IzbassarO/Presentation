@@ -1,0 +1,91 @@
+.slide10-root {
+  width: 100%;
+  height: 100%;
+  padding: 90px 100px;
+  box-sizing: border-box;
+
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Главный вертикальный стек */
+
+.slide10-vstack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+
+  text-align: center;
+}
+
+/* ===== TITLE ===== */
+
+.slide10-title {
+  font-size: 10.0rem;
+  font-weight: 800;
+  line-height: 1.15;
+
+  text-shadow: 0 0 25px rgba(255,255,255,0.75);
+}
+
+/* ===== SUBTITLE ===== */
+
+.slide10-subtitle {
+  font-size: 2.5rem;
+  font-weight: 500;
+  opacity: 0.9;
+  text-shadow: 0 0 25px rgba(255,255,255,0.75);
+}
+
+/* ===== QR CODE ===== */
+
+.slide10-qr-wrapper {
+  padding: 14px;
+  border-radius: 24px;
+  backdrop-filter: blur(10px);
+
+  background: rgba(255,255,255, 0.1);
+  border: 2px solid rgba(255,255,255, 0.6);
+
+  box-shadow: 0 0 30px rgba(0,0,0, 0.4);
+}
+
+.slide10-qr {
+  width: 260px;
+  height: 260px;
+  object-fit: contain;
+}
+
+/* ===== LINK ===== */
+
+.slide10-link {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  color: #d8b4fe;
+  text-decoration: none;
+  text-shadow: 0 0 25px rgba(255,255,255,0.75);
+
+  transition: 0.2s ease;
+}
+
+.slide10-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+  .slide10-title {
+    font-size: 2.4rem;
+  }
+
+  .slide10-qr {
+    width: 220px;
+    height: 220px;
+  }
+}

@@ -1,0 +1,124 @@
+.slide7-root {
+  width: 100%;
+  height: 100%;
+  padding: 90px 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Две вертикальные колонки: левая / правая */
+.slide7-columns {
+  display: flex;
+  gap: 48px;
+  width: 100%;
+}
+
+.slide7-col {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ====== ФОТО ====== */
+
+.slide7-image-wrapper {
+  border-radius: 24px;
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.slide7-image {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+/* нижнее фото чуть с отступом от текста */
+.slide7-image-bottom {
+  margin-top: 32px;
+}
+
+/* ====== ТЕКСТ СЛЕВА (список) ====== */
+
+.slide7-list-block {
+  margin-top: 32px;
+}
+
+.slide7-list-title {
+  font-size: 2.6rem;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+
+.slide7-list {
+  padding-left: 2.0rem;
+  margin: 0 0 8px;
+  line-height: 1.8;
+  font-size: 1.3rem;
+}
+
+.slide7-list li + li {
+  margin-top: 4px;
+}
+
+.slide7-list-source {
+  margin-top: 15px;
+  font-size: 1.0rem;
+  opacity: 0.8;
+}
+
+/* ====== ТЕКСТ СПРАВА (title + subtitle + description) ====== */
+
+.slide7-text-block {
+  max-width: 90%;
+}
+
+.slide7-title {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin: 0 0 20px;
+  font-weight: 800;
+  text-shadow:
+    0 0 18px rgba(255, 255, 255, 0.95),
+    0 0 40px rgba(168, 85, 247, 1);
+}
+
+.slide7-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 14px;
+}
+
+.slide7-description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  opacity: 0.92;
+}
+
+/* ====== АДАПТИВ ====== */
+
+@media (max-width: 900px) {
+  .slide7-root {
+    padding: 60px 5vw 40px;
+  }
+
+  .slide7-columns {
+    flex-direction: column;
+  }
+
+  .slide7-text-block {
+    max-width: 100%;
+  }
+
+  .slide7-image {
+    height: 220px;
+  }
+
+  .slide7-title {
+    font-size: 2rem;
+  }
+}

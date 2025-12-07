@@ -1,0 +1,102 @@
+@import "./styles/fonts.css";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+:root {
+  --font-title: "ModernismShort Round", "ModernismShort", sans-serif;
+  --font-heading: "ModernismShort", sans-serif;
+  --font-body: "Poppins", sans-serif;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  overflow: hidden; /* убираем обычный скролл страницы */
+}
+
+/* корневой контейнер */
+.app-root {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: radial-gradient(circle at top left, #1e293b, #020617);
+  color: #f9fafb;
+}
+
+/* обёртка всех слайдов (стек вертикально) */
+.slides-wrapper {
+  height: 100vh;
+  width: 100%;
+  transition: transform 0.6s ease-in-out;
+}
+
+/* отдельный слайд — всегда на весь экран */
+.slide {
+  height: 100vh;
+  width: 100%;
+  padding: 40px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* контент внутри слайда */
+.slide-content {
+  max-width: 900px;
+  text-align: left;
+}
+
+.slide-content h1 {
+  font-size: 40px;
+  margin-bottom: 16px;
+}
+
+.slide-content h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+  opacity: 0.9;
+}
+
+.slide-content p {
+  font-size: 20px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+/* кружочки справа */
+.dots-wrapper {
+  position: fixed;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  border: 2px solid #e5e7eb;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.dot--active {
+  background: #22c55e;
+  border-color: #22c55e;
+  transform: scale(1.3);
+}

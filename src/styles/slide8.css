@@ -1,0 +1,92 @@
+.slide8-root {
+  width: 100%;
+  height: 100%;
+  padding: 90px 100px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+/* 2 большие колонки */
+.slide8-columns {
+  display: flex;
+  gap: 48px;
+  width: 100%;
+}
+
+.slide8-left,
+.slide8-right {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== TEXT (LEFT COLUMN) ===== */
+
+.slide8-title {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 0 0 40px;
+  text-shadow:
+    0 0 18px rgba(255, 255, 255, 0.95),
+    0 0 40px rgba(168, 85, 247, 1);
+}
+
+.slide8-subtitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 10px 0 20px;
+}
+
+.slide8-description {
+  font-size: 1.3rem;
+  line-height: 2.0;
+  opacity: 0.9;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.slide8-source {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  opacity: 0.7;
+}
+
+/* ===== IMAGES (RIGHT COLUMN) ===== */
+
+.slide8-image-wrapper {
+  border-radius: 24px;
+  overflow: hidden;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.6);
+  margin-bottom: 32px;
+}
+
+.slide8-image {
+  width: 100%;
+  height: 400px; /* регулируется */
+  object-fit: cover;
+  display: block;
+}
+
+/* ===== ADAPTIVE ===== */
+
+@media (max-width: 900px) {
+  .slide8-root {
+    padding: 60px 5vw 40px;
+  }
+
+  .slide8-columns {
+    flex-direction: column;
+  }
+
+  .slide8-image {
+    height: 220px;
+  }
+
+  .slide8-title {
+    font-size: 2.2rem;
+  }
+}

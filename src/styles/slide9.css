@@ -1,0 +1,89 @@
+.slide9-root {
+  width: 100%;
+  height: 100%;
+  padding: 90px 100px;
+  box-sizing: border-box;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+}
+
+/* Главный VSTACK */
+.slide9-vstack {
+  max-width: 1500px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ===== TITLES ===== */
+
+.slide9-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.0;
+  margin: 0 0 6px;
+  text-shadow:
+    0 0 18px rgba(255, 255, 255, 0.95),
+    0 0 40px rgba(168, 85, 247, 1);
+}
+
+.slide9-subtitle {
+  font-size: 2.0rem;
+  font-weight: 700;
+  margin-top: 5px;
+  text-shadow: 0 0 20px rgba(255,255,255,0.7);
+}
+
+/* ===== TEXT ===== */
+
+.slide9-text {
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.8;
+  opacity: 0.9;
+  margin-left: 20px;
+}
+
+/* ===== LIST ===== */
+
+.slide9-list {
+  margin: 5px 0 0;
+  padding-left: 2.0rem;
+  line-height: 2.0;
+  font-size: 1.3rem;
+}
+
+.slide9-list li + li {
+  margin-top: 6px;
+}
+
+.slide9-list span {
+  font-weight: 600;
+}
+
+/* ===== FOOTER ===== */
+
+.slide9-footer {
+  margin-top: 25px;
+  font-size: 1.5rem;
+  line-height: 2.0;
+  opacity: 0.9;
+  font-weight: 600;
+  word-spacing: 10.0px;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 900px) {
+  .slide9-root {
+    padding: 60px 5vw 40px;
+  }
+
+  .slide9-title {
+    font-size: 2.1rem;
+  }
+}
