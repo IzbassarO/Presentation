@@ -1,6 +1,6 @@
 .slide2-root {
   width: 100%;
-  min-height: 100vh; /* чтобы слайд был по высоте экрана */
+  height: 100%;
   box-sizing: border-box;
 
   display: grid;
