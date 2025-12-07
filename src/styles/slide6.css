@@ -1,26 +1,26 @@
 .slide6-root {
   width: 100%;
   height: 100%;
-  padding: 90px 100px;
+  padding: 60px 80px;           /* было 90px 100px – слегка уменьшили */
   box-sizing: border-box;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;  /* не центрируем, чтобы не тянуть вниз */
   color: #ffffff;
 }
 
 /* заголовок по центру */
 .slide6-header {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 24px;          /* было 40px */
 }
 
 .slide6-title {
-  font-size: 60px;
+  font-size: 55px;              /* было 60px */
   margin: 0;
   font-weight: 800;
-  padding: 0px 0px 30px 0px;
+  padding: 0 0 18px 0;          /* меньше отступ снизу */
   text-shadow:
     0 0 18px rgba(255, 255, 255, 0.95),
     0 0 40px rgba(168, 85, 247, 1);
@@ -30,20 +30,20 @@
 .slide6-images-row {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
-  margin-bottom: 40px;
+  gap: 32px;
+  margin-bottom: 28px;          /* было 40px */
 }
 
 /* каждая колонна (левая/правая) – VSTACK */
 .slide6-image-vstack {
   flex: 1 1 0;
-  padding: 0 10px;
+  padding: 0 8px;
 }
 
 /* сами фото: одинаковая ширина и высота -> параллельно друг другу */
 .slide6-image {
   width: 100%;
-  height: 330px;
+  height: 300px;                /* было 330px */
   object-fit: cover;
   border-radius: 30px;
 }
@@ -52,34 +52,34 @@
 .slide6-text-row {
   display: flex;
   justify-content: space-between;
-  gap: 40px;
+  gap: 32px;
 }
 
 /* VSTACK для текста в каждой колонне */
 .slide6-text-vstack {
   flex: 1 1 0;
-  padding: 0 10px;
+  padding: 0 8px;
 }
 
 /* субтайтлы на одной линии */
 .slide6-subtitle {
-  font-size: 35px;
+  font-size: 33px;              /* было 35px */
   font-weight: 800;
-  padding: 10px 0px 10px 0px;
-  margin: 0 0 10px;
+  padding: 6px 0 6px 0;
+  margin: 0 0 8px;
 }
 
 /* описания под своими субтайтлами */
 .slide6-description {
-  font-size: 20px;
-  line-height: 1.8;
+  font-size: 20px;              /* было 20px */
+  line-height: 1.7;
   opacity: 0.9;
 }
 
 /* адаптив */
 @media (max-width: 768px) {
   .slide6-root {
-    padding: 60px 5vw 40px;
+    padding: 40px 5vw 32px;
   }
 
   .slide6-title {
@@ -97,6 +97,6 @@
   }
 
   .slide6-image {
-    height: 220px;
+    height: 210px;
   }
 }
