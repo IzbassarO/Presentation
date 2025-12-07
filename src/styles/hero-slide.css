@@ -72,50 +72,31 @@
 }
 
 .author {
-  position: absolute;
-
-  bottom: 40px;
-  left: 0;
-
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
 
-  z-index: 2;
+  margin-top: 18px;   /* ставит автора ниже Science/Digitalization */
 }
 
+/* аватар */
 .author-avatar {
-  width: 90px;
-  height: 90px;
-
+  width: 52px;
+  height: 52px;
+  border-radius: 999px;
+  border: 2px solid rgba(255,255,255,0.7);
   object-fit: cover;
-  border-radius: 0%;
-
-  border: 1px solid rgba(255,255,255,1.0);
-  box-shadow: 0 0 24px rgba(147,51,234,0.8);
 }
 
-/* Текст — VStack */
-.author-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  line-height: 1.5;
-}
-
-/* Имя */
+/* текст */
 .author-name {
-  font-size: 20px;
-  font-weight: 800;
-  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
-/* Роль */
 .author-role {
-  font-size: 15px;
-  opacity: 0.8;
-  letter-spacing: 2px;
+  font-size: 0.85rem;
+  opacity: 0.75;
 }
 
 /* КАРТИНКИ */
