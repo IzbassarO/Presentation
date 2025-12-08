@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/slide5.css";
 import "../styles/hero-slide.css";
 
-import photo from "/big.png";
+import photo from "/ai10.png";
 
 const Slide5: React.FC = () => {
   return (

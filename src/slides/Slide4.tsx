@@ -2,8 +2,8 @@ import React from "react";
 import "../styles/slide4.css";
 import "../styles/hero-slide.css";
 
-import photo1 from "/big.png";
-import photo2 from "/small.png";
+import photo1 from "/ai3.jpg";
+import photo2 from "/ai4.jpg";
 
 const Slide4: React.FC = () => {
   return (

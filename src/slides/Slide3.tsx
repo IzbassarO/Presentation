@@ -2,9 +2,9 @@ import React from "react";
 import "../styles/slide3.css";
 import "../styles/hero-slide.css";
 
-import photo1 from "/big.png";
-import photo2 from "/small.png";
-import photo3 from "/cyber.png";
+import photo1 from "/philosophy3.jpg";
+import photo2 from "/philosophy1.jpg";
+import photo3 from "/philosophy2.png";
 
 const Slide3: React.FC = () => {
   return (

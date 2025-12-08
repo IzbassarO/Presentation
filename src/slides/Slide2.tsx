@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/slide2.css";
 import "../styles/hero-slide.css";
 
-import big from "/philosophy1.jpg";
+import big from "/ai2.png";
 import small from "/ai1.jpg";
 
 const Slide2: React.FC = () => {

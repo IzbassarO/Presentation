@@ -2,8 +2,8 @@ import React from "react";
 import "../styles/slide6.css";
 import "../styles/hero-slide.css";
 
-import brainImage from "/big.png";
-import robotImage from "/small.png";
+import brainImage from "/ai8.jpg";
+import robotImage from "/ai9.jpg";
 
 const Slide6: React.FC = () => {
   return (

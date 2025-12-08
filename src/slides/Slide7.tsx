@@ -2,8 +2,8 @@ import React from "react";
 import "../styles/slide7.css";
 import "../styles/hero-slide.css";
 
-import topImage from "/big.png";
-import bottomImage from "/small.png";
+import topImage from "/ai7.jpg";
+import bottomImage from "/ai5.jpg";
 
 const Slide7: React.FC = () => {
   return (
