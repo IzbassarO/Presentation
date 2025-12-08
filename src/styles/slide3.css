@@ -8,7 +8,6 @@
   align-items: center;
 }
 
-/* GRID: 2 колонки, которые сами тянут контент */
 .slide3-grid {
   width: 100%;
   display: grid;
@@ -17,8 +16,6 @@
   align-items: center;
 }
 
-/* ===== LEFT STACK ===== */
-
 .left-stack {
   display: flex;
   flex-direction: column;
@@ -26,9 +23,8 @@
   gap: 24px;
 }
 
-/* общие стили карточек слева */
 .img-card-left {
-  width: 100%;             /* авто по ширине колонки */
+  width: 100%;
   border-radius: 26px;
   overflow: hidden;
 
@@ -40,12 +36,10 @@
   backdrop-filter: blur(6px);
 }
 
-/* большая картинка */
 .img-card-left:not(.small-img-left) {
   aspect-ratio: 18 / 10;
 }
 
-/* маленькая картинка под заголовком */
 .small-img-left {
   max-width: 90%;
   aspect-ratio: 2 / 1;
@@ -58,8 +52,6 @@
   display: block;
 }
 
-/* ===== RIGHT STACK ===== */
-
 .right-stack {
   display: flex;
   flex-direction: column;
@@ -67,7 +59,6 @@
   align-items: stretch;
 }
 
-/* большая картинка справа */
 .img-card-right {
   width: 40%;
   max-width: 500px;
@@ -91,12 +82,9 @@
   display: block;
 }
 
-/* доп. фон под правой картинкой */
 .glass {
   background: rgba(15, 23, 42, 0.65);
 }
-
-/* ===== TEXT ===== */
 
 .slide3-main-title {
   text-align: center;
@@ -160,15 +148,13 @@
   color: #f9fafb;
 }
 
-/* ===== ADAPTIVE ===== */
-
 @media (max-width: 1100px) {
   .slide3-root {
     padding: 50px 40px;
   }
 
   .slide3-grid {
-    grid-template-columns: 1fr;  /* складываемся в одну колонку */
+    grid-template-columns: 1fr;
     gap: 28px;
   }
 

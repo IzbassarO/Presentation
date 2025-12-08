@@ -1,4 +1,3 @@
-/* Regular */
 @font-face {
   font-family: "ModernismShort";
   src: url("../fonts/ModernismShort/Modernism-Short.ttf") format("truetype");
@@ -7,7 +6,6 @@
   font-display: swap;
 }
 
-/* Bold */
 @font-face {
   font-family: "ModernismBold";
   src: url("../fonts/ModernismShort/Modernism-Bold.ttf") format("truetype");
@@ -16,7 +14,6 @@
   font-display: swap;
 }
 
-/* Rounded Bold */
 @font-face {
   font-family: "ModernismRoundedBold";
   src: url("../fonts/ModernismShort/Modernism-RoundedBold.ttf")
@@ -26,7 +23,6 @@
   font-display: swap;
 }
 
-/* Narrow (вариант для маленьких подписей) */
 @font-face {
   font-family: "ModernismShortNarrow";
   src: url("../fonts/ModernismShort/Modernism-Narrow.ttf") format("truetype");
@@ -35,7 +31,6 @@
   font-display: swap;
 }
 
-/* Disco (декоративный) */
 @font-face {
   font-family: "ModernismDisco";
   src: url("../fonts/ModernismShort/Modernism-Disco.ttf") format("truetype");
@@ -44,7 +39,6 @@
   font-display: swap;
 }
 
-/* Stroke */
 @font-face {
   font-family: "ModernismStroke";
   src: url("../fonts/ModernismShort/Modernism-Stoke.ttf") format("truetype");
@@ -61,7 +55,6 @@
   font-display: swap;
 }
 
-/* Regular */
 @font-face {
   font-family: "PoppinsRegular";
   src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
@@ -70,7 +63,6 @@
   font-display: swap;
 }
 
-/* Medium */
 @font-face {
   font-family: "PoppinsMedium";
   src: url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
@@ -79,7 +71,6 @@
   font-display: swap;
 }
 
-/* SemiBold */
 @font-face {
   font-family: "PoppinsSemiBold";
   src: url("../fonts/Poppins/Poppins-SemiBold.ttf") format("truetype");
@@ -88,7 +79,6 @@
   font-display: swap;
 }
 
-/* Bold */
 @font-face {
   font-family: "PoppinsBold";
   src: url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
@@ -97,7 +87,6 @@
   font-display: swap;
 }
 
-/* ExtraBold */
 @font-face {
   font-family: "PoppinsExtraBold";
   src: url("../fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
@@ -106,7 +95,6 @@
   font-display: swap;
 }
 
-/* Black */
 @font-face {
   font-family: "PoppinsBlack";
   src: url("../fonts/Poppins/Poppins-Black.ttf") format("truetype");
@@ -114,10 +102,6 @@
   font-style: normal;
   font-display: swap;
 }
-
-/* ============================= */
-/*        01 DIGIGRAPHICS        */
-/* ============================= */
 
 @font-face {
   font-family: "DigitGraphics";

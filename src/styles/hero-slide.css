@@ -10,14 +10,12 @@
   position: relative;
 }
 
-/* линии-связи */
 .hero-lines {
   position: absolute;
   inset: 0;
   opacity: 0.18;
 }
 
-/* ТЕКСТ */
 .hero-left {
   display: flex;
   position: relative;
@@ -78,7 +76,6 @@
   margin-top: 40px;
 }
 
-/* аватар */
 .author-avatar {
   width: 80px;
   height: 80px;
@@ -87,7 +84,6 @@
   object-fit: cover;
 }
 
-/* текст */
 .author-name {
   font-size: 1.2rem;
   margin-bottom: 10px;
@@ -99,12 +95,11 @@
   opacity: 0.8;
 }
 
-/* КАРТИНКИ */
 .hero-right {
   position: relative;
 
   display: flex;
-  justify-content: flex-end; /* картинка прижата к правому краю колонки */
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -194,12 +189,9 @@
   color: #fff;
 }
 
-/* Slide1 */
 .hero-root {
   width: 100%;
   height: 100%;
-  /* тут фон больше НЕ нужен */
-  /* background: radial-gradient(circle at top left, #2c084b, #06010e); */
   color: #fff;
 
   display: grid;

@@ -11,8 +11,6 @@
   justify-content: left;
 }
 
-/* Главный вертикальный стэк */
-
 .slide11-vstack {
   display: flex;
   flex-direction: column;
@@ -20,36 +18,26 @@
   gap: 20px;
 }
 
-/* ===== TITLE ===== */
-
 .slide11-title {
   font-size: 4.5rem;
   margin-bottom: 20px;
   text-shadow: 0 0 18px rgba(255,255,255,0.5);
 }
 
-/* ===== APA LIST ===== */
-
 .slide11-list {
   list-style: decimal;
   padding-left: 3.0rem;
 }
 
-/* Каждый источник */
-
 .slide11-item {
   margin-bottom: 25px;
 }
-
-/* APA текст */
 
 .slide11-text {
   font-size: 1.2rem;
   line-height: 1.2;
   margin-bottom: 5px;
 }
-
-/* Ссылки */
 
 .slide11-link {
   font-size: .9rem;
@@ -65,8 +53,6 @@
   color: #ffffff;
   text-decoration: underline;
 }
-
-/* ===== АДАПТИВ ===== */
 
 @media (max-width: 768px) {
   .slide11-root {

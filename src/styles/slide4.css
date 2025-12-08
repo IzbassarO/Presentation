@@ -5,8 +5,6 @@
   box-sizing: border-box;
 }
 
-/* ===== GRID LAYOUT ===== */
-
 .slide4-grid {
   display: grid;
   grid-template-columns: 1.1fr 1.4fr;
@@ -15,8 +13,6 @@
   align-items: center;
 }
 
-/* ===== LEFT COLUMN: VSTACK (Photo – Title – Photo) ===== */
-
 .slide4-left {
   display: flex;
   flex-direction: column;
@@ -24,7 +20,6 @@
   gap: 26px;
 }
 
-/* верхнее фото */
 .slide4-img-main {
   width: 100%;
   max-width: 40vw;
@@ -48,7 +43,6 @@
   display: block;
 }
 
-/* нижнее фото */
 .slide4-img-secondary {
   width: 100%;
   max-width: 30vw;
@@ -72,8 +66,6 @@
   display: block;
 }
 
-/* заголовок между фото */
-
 .slide4-main-title {
   text-align: center;
   font-size: 2.6rem;
@@ -88,15 +80,11 @@
     0 0 45px rgba(168, 85, 247, 0.9);
 }
 
-/* ===== RIGHT COLUMN: TEXT VSTACK ===== */
-
 .slide4-right {
   display: flex;
   flex-direction: column;
   gap: 18px;
 }
-
-/* карточки текста */
 
 .slide4-text-block {
   background: rgba(15, 23, 42, 0.9);
@@ -111,8 +99,6 @@
   background: rgba(30, 27, 75, 0.92);
   border-color: rgba(196, 181, 253, 0.7);
 }
-
-/* заголовки и текст */
 
 .slide4-subtitle {
   margin: 0 0 8px 0;
@@ -133,8 +119,6 @@
   color: #f9fafb;
 }
 
-/* буллеты */
-
 .slide4-list {
   margin: 0;
   padding-left: 22px;
@@ -150,8 +134,6 @@
   margin-bottom: 6px;
 }
 
-/* ===== CONCLUSION (белое свечение) ===== */
-
 .slide4-conclusion {
   margin-top: 6px;
   padding-top: 30px;
@@ -166,8 +148,6 @@
     0 0 18px rgba(248, 250, 252, 0.95),
     0 0 36px rgba(196, 181, 253, 0.9);
 }
-
-/* ===== ADAPTIVE ===== */
 
 @media (max-width: 1100px) {
   .slide4-grid {
