@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/hero-slide.css";
 import avatar from "/cyber.png";
-import small from "/small.png";
-import big from "/big.png";
+import small from "/philosophy.png";
+import big from "/ai.jpg";
 
 const Slide1: React.FC = () => {
   return (
